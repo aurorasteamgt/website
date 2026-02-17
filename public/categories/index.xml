@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Airspace | Creative Agency Hugo Template</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on Airspace | Creative Agency Hugo Template</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>es-GT</language>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Assistance</title>
+      <link>//localhost:1313/categories/technical-assistance/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0100</pubDate>
+      <guid>//localhost:1313/categories/technical-assistance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>//localhost:1313/categories/artificial-intelligence/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <guid>//localhost:1313/categories/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Company News</title>
+      <link>//localhost:1313/categories/company-news/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <guid>//localhost:1313/categories/company-news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Legacy Support</title>
+      <link>//localhost:1313/categories/legacy-support/</link>
+      <pubDate>Mon, 24 Sep 2018 11:07:10 +0600</pubDate>
+      <guid>//localhost:1313/categories/legacy-support/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
