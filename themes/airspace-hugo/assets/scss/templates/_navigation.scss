@@ -1,5 +1,5 @@
 .navigation {
-  background: $white;
+  background: $navigation-bg;
   padding: 20px 0;
 
   .navbar {
@@ -19,7 +19,7 @@
       padding-top: 10px;
 
       a {
-        color: #7b7b7b;
+        color: $text_light;
         padding: 10px 15px;
 
         font : {
@@ -31,19 +31,19 @@
 
         &:hover,
         &:focus {
-          color: $black;
+          color: $light;
           background: transparent;
         }
       }
 
       a.current {
-        color: $black;
+        color: $light;
         pointer-events: none;
         cursor: default;
       }
 
       a.current-parent {
-        color: $black;
+        color: $light;
       }
 
       select {

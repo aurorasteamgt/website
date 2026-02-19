@@ -10,6 +10,7 @@ $border-color: {{.border_color | default "#ECECEC"}};
 $black: {{.black | default "#000"}};
 $white: {{.white | default "#fff"}};
 $light: {{.light | default "#EDF6F5"}};
+$navigation-bg: {{.navigation_bg | default "#8C1A79"}};
 
 
 // Font Variables
