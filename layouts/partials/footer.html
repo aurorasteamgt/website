@@ -1,0 +1,37 @@
+<footer class="footer">
+  <div class="container">
+    <!--div class="row">
+      <div class="col-md-12">
+        <div class="footer-menu">
+          <ul>
+            {{ range site.Menus.footer }}
+            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div-->
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <p>Mantente en contacto con nosotras a través de nuestras redes sociales, donde compartimos noticias, eventos y oportunidades para nuestra comunidad:</p>
+        <div class="row social-icons">
+          {{ range $index, $element := .Site.Params.social }}
+          {{ $iconPath:= $element.icon }}
+          {{ $icon:= resources.Get $iconPath }}
+          <div class="col-sm-1 col-xs-4 text-center">
+            <a href="{{ $element.link | safeURL }}" class="inline-block">
+              <img src="{{ $icon.RelPermalink }}" class="social-icon"></img>
+            </a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <p>Para consultas, alianzas o más información, escríbenos a <a href="mailto:direccion@aurorasteamgt.com">direccion@aurorasteamgt.com</a>.</p>
+      </div>
+    </div>
+    <div class="row copyright">
+      <p>{{ site.Params.copyright | markdownify }}</p>
+    </div>
+  </div>
+</footer>

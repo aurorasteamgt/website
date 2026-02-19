@@ -20,14 +20,14 @@ address_descriptors = false
 phone = "0124857985320"
 email = "demo@email.com"
 location = """
-**Themefisher**  
-North Main Street  
-Brooklyn, New South Wales  
+**Themefisher**
+North Main Street
+Brooklyn, New South Wales
 Australia
 """
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+copyright = "© 2026 Aurora STEAM Guatemala"
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script= ""
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
@@ -35,18 +35,17 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 recaptcha_site_key = "xxx-xxxxxxxxxxxxxxxxxxxxxxxx"
 
 [contact.form]
-enable = true
+enable = false
 # Whether to use [Netlify Forms](https://docs.netlify.com/forms/setup/)
 use_netlify = true
 # Whether to use recaptch v3 in form
 use_recaptcha = true
 # Form action
 ## Fill in your Form ID URL for Formspree.io, e.g. `https://formspree.io/f/{form_id}`
-## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included) 
+## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included)
 action = "#"
 # Image on custom success page `/message_sent.html`
 success_image = "images/paper-plane.svg"
-
 
 # Preloader
 [preloader]
@@ -110,29 +109,35 @@ sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 
 
 ############################# social site ########################=
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook"  # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "twitter"
-icon = "fab fa-twitter"  # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
 
 [[social]]
 title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+icon = "images/social/instagram.svg"
+link = "https://www.instagram.com/aurorasteamgt/"
 
 [[social]]
-title = "github"
-icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
+title = "x"
+icon = "images/social/x.svg"
+link = "https://x.com/aurorasteamgt"
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "images/social/linkedin.svg"
+link = "https://www.linkedin.com/company/aurora-steam-guatemala/"
+
+[[social]]
+title = "facebook"
+icon = "images/social/facebook.svg"
 link = "#"
+
+[[social]]
+title = "youtube"
+icon = "images/social/youtube.svg"
+link = "https://www.youtube.com/@AuroraSTEAMGT"
+
+[[social]]
+title = "eventbrite"
+icon = "images/social/eventbrite.svg"
+link = "https://www.eventbrite.com/o/aurora-steam-gt-107952920521"
 
 
