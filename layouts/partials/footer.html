@@ -19,7 +19,7 @@
           {{ $iconPath:= $element.icon }}
           {{ $icon:= resources.Get $iconPath }}
           <div class="col-sm-1 col-xs-4 text-center">
-            <a href="{{ $element.link | safeURL }}" class="inline-block">
+            <a href="{{ $element.link | safeURL }}" class="inline-block" target="_blank">
               <img src="{{ $icon.RelPermalink }}" class="social-icon"></img>
             </a>
           </div>
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <p>Para consultas, alianzas o más información, escríbenos a <a href="mailto:direccion@aurorasteamgt.com">direccion@aurorasteamgt.com</a>.</p>
+        <p>Para consultas, alianzas o más información, escríbenos a <a href="mailto:direccion@aurorasteamgt.com" target="_blank">direccion@aurorasteamgt.com</a>.</p>
       </div>
     </div>
     <div class="row copyright">
