@@ -1,4 +1,4 @@
-name: Build and deploy
+name: Build and deploy to production
 on:
   push:
     branches:
@@ -16,11 +16,12 @@ defaults:
     shell: bash
 jobs:
   build:
+    if: "${{ startsWith(github.event.head_commit.message, 'ci: [bot]')}}"
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.97.3
       GO_VERSION: 1.25.6
-      HUGO_VERSION: 0.155.3
+      HUGO_VERSION: 0.156.0
       NODE_VERSION: 24.13.0
       TZ: America/Guatemala
     steps:
