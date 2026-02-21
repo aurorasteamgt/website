@@ -24,19 +24,14 @@ about:
 portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-  "
+  title: "APOYANOS A SER PARTE DEL CAMBIO"
+  first_paragraph: "Invitamos a empresas, organizaciones y aliados estratégicos a sumarse a nuestra misión de impulsar el talento en STEAM en Guatemala. <br> Existen diversas formas de colaboraciòn: "
+  colab_list: ["Espacios para eventos", "Alimentaciòn y logística", "Becas y recursos educativos", "Materiales promocionales" , "Aportes tecnològicos o financieros"]
+  second_paragraph: "Si deseas conocer alianzas estratégicas u otras modalidades de apoyo, contáctanos en:   <a>direccion@aurorasteamgt.com</a> <br>¡Tú también puedes colaborar y ser parte del impacto!"
   button:
     enable: true
-    label: "View Works"
-    link: "project/"
+    label: "Contáctanos"
+    link: "mailto:direccion@aurorasteamgt.com/"
 
 
 ############################# Service ############################
