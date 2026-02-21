@@ -59,13 +59,13 @@
     <div class="row">
       <div class="col-md-6 col-md-offset-6">
         {{ with .title }}<h2 class="section-subtitle">{{ . | markdownify }}</h2>{{ end }}
-        {{ with .content1 }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+        {{ with .first_paragraph }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
         <ul class="list-style">
-          {{ range .list }}
+          {{ range .colab_list }}
           <li>{{ . | markdownify }}</li>
           {{ end }}
         </ul>
-        {{ with .content2 }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+        {{ with .second_paragraph }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
         {{ with .button }}
         {{ if .enable }}
         <a href="{{ .link | relLangURL }}" class="btn btn-view-works">{{ .label }}</a>
