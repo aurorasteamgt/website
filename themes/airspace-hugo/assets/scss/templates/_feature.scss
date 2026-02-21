@@ -25,6 +25,16 @@
     color: darken( $light, 41.37);
     margin-bottom: 20px;
   }
+  ul {
+    margin-bottom: 10px;
+    li {
+      color: darken( $light, 41.37);
+      margin-bottom: 10px;
+      list-style-type: disc;
+      margin-left: 20px;
+
+    }
+  }
 
   .btn-view-works {
     background: lighten( $color_primary, 2.35 );
