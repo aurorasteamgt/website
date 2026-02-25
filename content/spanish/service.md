@@ -46,49 +46,59 @@ featured_service:
 ############################# Service ###############################
 service:
   enable : true
-  title : "Our Services"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  title : "Brecha de género"
+  description : |
+    En Guatemala no existen estadísticas que aborden el tema de la brecha de género en el área de Tecnologías de la Información (TI).
+
+    Ante esta necesidad, realizamos un estudio con el objetivo de identificar y comprender la magnitud de la brecha de género en el sector TI en el país.
+
+    Los resultados de esta investigación se presentan en un informe que busca establecer una línea base para una serie de investigaciones sistemáticas que darán seguimiento al estudio de la situación de la brecha de género en Guatemala.
+
+    Te invitamos a consultar el informe completo en el siguiente enlace para conocer los hallazgos, conclusiones y recomendaciones.
+  button:
+    enable : true
+    label : "Descargar Informe Completo"
+    link : "https://heyzine.com/flip-book/ae5689e2d7.html"
   service_item:
     # service item loop
     - icon : fas fa-bullseye #https://fontawesome.com/v5.15/icons
-      name: Branding
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: Investigación
+      content: "Estudios sobre la brecha de género en el sector de Tecnologías de la Información en Guatemala"
 
     # service item loop
     - icon : fas fa-layer-group #https://fontawesome.com/v5.15/icons
-      name: Web Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: Análisis de Datos
+      content: "Recopilación y análisis de estadísticas sobre participación femenina en TI"
 
     # service item loop
     - icon : fas fa-image #https://fontawesome.com/v5.15/icons
-      name: App Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: Educación STEAM
+      content: "Promoción de la educación en Ciencia, Tecnología, Ingeniería, Arte y Matemáticas"
 
     # service item loop
-    - icon : fas fa-bug #https://fontawesome.com/v5.15/icons
-      name: Start Up
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-users #https://fontawesome.com/v5.15/icons
+      name: Inclusión
+      content: "Iniciativas para aumentar la participación de mujeres en tecnología"
 
     # service item loop
-    - icon : fas fa-headphones-alt #https://fontawesome.com/v5.15/icons
-      name: Logo Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-chart-line #https://fontawesome.com/v5.15/icons
+      name: Seguimiento
+      content: "Monitoreo continuo de la evolución de la brecha de género en TI"
 
     # service item loop
-    - icon : fas fa-leaf #https://fontawesome.com/v5.15/icons
-      name: Development
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-lightbulb #https://fontawesome.com/v5.15/icons
+      name: Desarrollo
+      content: "Programas de capacitación y desarrollo profesional para mujeres en tecnología"
 
     # service item loop
     - icon : fas fa-globe-asia #https://fontawesome.com/v5.15/icons
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: Impacto Social
+      content: "Generación de cambio social a través de la equidad de género en tecnología"
 
     # service item loop
-    - icon : fas fa-feather #https://fontawesome.com/v5.15/icons
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-book #https://fontawesome.com/v5.15/icons
+      name: Documentación
+      content: "Publicación de informes y recursos sobre género y tecnología en Guatemala"
 
 ############################# call to action #################################
 cta:

@@ -42,7 +42,19 @@ portfolio:
 ############################# Service ############################
 service:
   enable: true
-  # service content comes from "service.md" file
+  title: "Brecha de género"
+  description: |
+    En Guatemala no existen estadísticas que aborden el tema de la brecha de género en el área de Tecnologías de la Información (TI). Realizamos un estudio con el objetivo de identificar y comprender la magnitud de la brecha de género en el sector TI en el país.
+
+    Ante esta necesidad, realizamos un estudio con el objetivo de identificar y comprender la magnitud de la brecha de género en el sector TI en el país.
+
+    Los resultados de esta investigación se presentan en un informe que busca establecer una línea base para una serie de investigaciones sistemáticas que darán seguimiento al estudio de la situación de la brecha de género en Guatemala.
+
+    Te invitamos a consultar el informe completo en el siguiente enlace para conocer los hallazgos, conclusiones y recomendaciones.
+  button:
+    enable: true
+    label: "Descargar Informe Completo"
+    link: "https://heyzine.com/flip-book/ae5689e2d7.html"
 
 
 ############################ call to action ###########################
