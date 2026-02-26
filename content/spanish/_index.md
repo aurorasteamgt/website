@@ -2,41 +2,41 @@
 ############################### Banner ##############################
 banner:
   enable: true
-  bg_image: "images/slider-bg.jpg"
+  bg_image: "images/AURORA-Community.jpeg"
   bg_overlay: true
   title: "Aurora STEAM<br/>Guatemala"
-  content: "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
+  content: "Este 21 de marzo celebremos juntas el poder de las mujeres en STEAM en nuestro evento IWD 2026."
   button:
     enable: true
-    label: "Discover Our Project"
+    label: "REGÍSTRATE AHORA"
     link: "project/"
 
 ############################# About #################################
 about:
   enable: true
-  title: "About Us"
-  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
-  image: "images/wrapper-img.png"
+  title: "¿Quiénes somos?"
+  description: "Aurora STEAM GT es una comunidad que impulsa y visibiliza el talento de las mujeres guatemaltecas, creando espacios seguros de aprendizaje, inspiración y conexión para fortalecer su crecimiento y liderazgo en Ciencia, Tecnología, Ingeniería, Artes y Matemáticas. Nuestra misión es empoderar a más mujeres a desarrollarse en STEAM, reconocer sus trayectorias e inspirar a nuevas generaciones, contribuyendo así a reducir la brecha de género en Guatemala."
+  content: "Aspiramos a ser una comunidad segura y colaborativa donde las mujeres se apoyen para alcanzar sus metas mientras construyen vínculos significativos. Gracias al esfuerzo colectivo, hoy contamos con más de 20 líderes, 50 voluntarias y un alcance de más de 1,800 personas, reflejando el impacto y crecimiento continuo de nuestra comunidad en Guatemala."
+  image: "images/Aurora-Steam-Logos_Edit-08"
 
 
 ######################### Portfolio ###############################
 portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  title: "UN VISTAZO AL TRABAJO QUE HACEMOS"
+  content: " Desde Aurora STEAM GT realizamos un diagnóstico de la brecha de género con el objetivo de identificar y comprender la magnitud en el sector TI en Guatemala.
 
 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  Los resultados se presentan en un informe que busca establecer una línea base para una serie de investigaciones sistemáticas que se realizarán. 
 
 
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  Te invitamos a consultar el documento completo en el siguiente enlace para conocer los hallazgos, conclusiones y recomendaciones.
   "
   button:
     enable: true
-    label: "View Works"
-    link: "project/"
+    label: "Descúbrelo aquí"
+    link: "https://heyzine.com/flip-book/ae5689e2d7.html"
 
 
 ############################# Service ############################
@@ -49,12 +49,12 @@ service:
 cta:
   enable: true
   bg_image: "images/call-to-action-bg.jpg"
-  title: "We design delightful digital experiences."
-  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  title: "Forma Parte de Nuestra Comunidad"
+  content: "Sé parte de una red de mujeres que inspiran, construyen y transforman el ecosistema STEAM en Guatemala. Como voluntaria podrás aportar tu talento, conectar con otras líderes y generar impacto real en la comunidad."
   button:
     enable: true
-    label: "Tell Us Your Story"
-    link: "contact/"
+    label: "Quiero ser voluntaria"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSeezafuHWy-se_XLfdXf81KKMLmKExs6jpc26uh2Gnk5r4TYQ/viewform?pli=1"
 
 ############################# Funfacts ###############################
 funfacts:
