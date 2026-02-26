@@ -25,9 +25,7 @@ portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
   title: "APOYANOS A SER PARTE DEL CAMBIO"
-  first_paragraph: "Invitamos a empresas, organizaciones y aliados estratégicos a sumarse a nuestra misión de impulsar el talento en STEAM en Guatemala. <br> Existen diversas formas de colaboraciòn: "
-  colab_list: ["Espacios para eventos", "Alimentaciòn y logística", "Becas y recursos educativos", "Materiales promocionales" , "Aportes tecnològicos o financieros"]
-  second_paragraph: "Si deseas conocer alianzas estratégicas u otras modalidades de apoyo, contáctanos en:   <a>direccion@aurorasteamgt.com</a> <br>¡Tú también puedes colaborar y ser parte del impacto!"
+  content: "Invitamos a empresas, organizaciones y aliados estratégicos a sumarse a nuestra misión de impulsar el talento en STEAM en Guatemala. <br> Existen diversas formas de colaboraciòn: <ul><li>Espacios para eventos</li>, <li>Alimentaciòn y logística</li> <li>Becas y recursos educativos</li> <li>Materiales promocionales</li> <li>Aportes tecnològicos o financieros</li></ul> <p>Si deseas conocer alianzas estratégicas u otras modalidades de apoyo, contáctanos en:   <a>direccion@aurorasteamgt.com</a> <br>¡Tú también puedes colaborar y ser parte del impacto!</p>"
   button:
     enable: true
     label: "Contáctanos"
