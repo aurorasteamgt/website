@@ -42,3 +42,19 @@ $ git push
 2. Hacer merge del PR **con rebase** para que se incorporen todos los commits y sus mensajes a `main`.
 3. Esto va a activar `release-please`, que abrirá un Pull Request con el CHANGELOG.md generado con los cambios.
 4. Hacer merge del PR de `release-please`, con lo que se generará el tag de la nueva versión y se activará el deployment a producción.
+5. Actualizar develop con estos comandos:
+```
+$ git fetch origin main:main
+$ git checkout develop
+$ git reset --hard origin/main
+$ git push --force
+```
+
+## ¿Cómo sincronizar tu branch con `develop`?
+Cuando tu branch ya no está al día con la última versión de `develop`, puedes actualizarla con los siguientes comandos:
+```
+$ git checkout <tu-branch>
+$ git fetch origin develop:develop
+$ git rebase develop
+$ git push --force
+```
