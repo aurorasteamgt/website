@@ -46,49 +46,39 @@ featured_service:
 ############################# Service ###############################
 service:
   enable : true
-  title : "Our Services"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  title : "Alianzas y Apoyo"
+  description : "Invitamos a empresas, organizaciones y aliados estratégicos a sumarse a nuestra misión de impulsar el talento en STEAM en Guatemala."
   service_item:
     # service item loop
-    - icon : fas fa-bullseye #https://fontawesome.com/v5.15/icons
-      name: Branding
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-building #https://fontawesome.com/v5.15/icons
+      name: Espacios para eventos
+      content: "Facilita tus instalaciones para realizar talleres, charlas y encuentros que impulsen el talento femenino en STEAM."
 
     # service item loop
-    - icon : fas fa-layer-group #https://fontawesome.com/v5.15/icons
-      name: Web Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-pizza-slice #https://fontawesome.com/v5.15/icons
+      name: Alimentación y logística
+      content: "Apoya la organización de nuestros eventos mediante servicios de catering, transporte o recursos logísticos."
+
+    # service item looparregl0
+    - icon : fas fa-pencil-ruler #https://fontawesome.com/v5.15/icons
+      name: Becas y recursos educativos
+      content: "Contribuye con becas, cursos, licencias o materiales que fortalezcan el desarrollo profesional de nuestras participantes."
 
     # service item loop
-    - icon : fas fa-image #https://fontawesome.com/v5.15/icons
-      name: App Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-bullhorn #https://fontawesome.com/v5.15/iconsspeaker
+      name: Materiales promocionales
+      content: "Apoya con artículos promocionales o recursos de comunicación que amplifiquen el alcance de nuestras iniciativas."
 
     # service item loop
-    - icon : fas fa-bug #https://fontawesome.com/v5.15/icons
-      name: Start Up
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-laptop #https://fontawesome.com/v5.15/icons
+      name: Aportes tecnológicos o financieros
+      content: "Brinda herramientas tecnológicas, patrocinios o apoyo económico para potenciar el impacto de la comunidad."
 
     # service item loop
-    - icon : fas fa-headphones-alt #https://fontawesome.com/v5.15/icons
-      name: Logo Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-at #https://fontawesome.com/v5.15/icons
+      name: Contáctanos
+      content: "Para consultas, alianzas o más información, escríbenos a direccion@aurorasteamgt.com"
 
-    # service item loop
-    - icon : fas fa-leaf #https://fontawesome.com/v5.15/icons
-      name: Development
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-
-    # service item loop
-    - icon : fas fa-globe-asia #https://fontawesome.com/v5.15/icons
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-
-    # service item loop
-    - icon : fas fa-feather #https://fontawesome.com/v5.15/icons
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
 
 ############################# call to action #################################
 cta:
