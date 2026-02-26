@@ -2,14 +2,15 @@
 ############################### Banner ##############################
 banner:
   enable: true
-  bg_image: "images/AURORA-Community.jpeg"
+  bg_image: "images/AURORA-Community.png"
   bg_overlay: true
   title: "Aurora STEAM<br/>Guatemala"
   content: "Este 21 de marzo celebremos juntas el poder de las mujeres en STEAM en nuestro evento IWD 2026."
   button:
     enable: true
     label: "REGÍSTRATE AHORA"
-    link: "project/"
+    link: https://iwd-2026-aurosteamgt.eventbrite.com/?aff=website
+    targetBlank: true
 
 ############################# About #################################
 about:
@@ -17,7 +18,8 @@ about:
   title: "¿Quiénes somos?"
   description: "Aurora STEAM GT es una comunidad que impulsa y visibiliza el talento de las mujeres guatemaltecas, creando espacios seguros de aprendizaje, inspiración y conexión para fortalecer su crecimiento y liderazgo en Ciencia, Tecnología, Ingeniería, Artes y Matemáticas. Nuestra misión es empoderar a más mujeres a desarrollarse en STEAM, reconocer sus trayectorias e inspirar a nuevas generaciones, contribuyendo así a reducir la brecha de género en Guatemala."
   content: "Aspiramos a ser una comunidad segura y colaborativa donde las mujeres se apoyen para alcanzar sus metas mientras construyen vínculos significativos. Gracias al esfuerzo colectivo, hoy contamos con más de 20 líderes, 50 voluntarias y un alcance de más de 1,800 personas, reflejando el impacto y crecimiento continuo de nuestra comunidad en Guatemala."
-  image: "images/Aurora-Steam-Logos_Edit-08"
+  image: "images/Aurora-Steam-Logos_Edit-08.jpg"
+  imageAlt: "Aurora STEAM Guatemala"
 
 
 ######################### Portfolio ###############################
@@ -25,18 +27,18 @@ portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
   title: "UN VISTAZO AL TRABAJO QUE HACEMOS"
-  content: " Desde Aurora STEAM GT realizamos un diagnóstico de la brecha de género con el objetivo de identificar y comprender la magnitud en el sector TI en Guatemala.
+  content: "Desde Aurora STEAM GT realizamos un diagnóstico de la brecha de género con el objetivo de identificar y comprender la magnitud en el sector TI en Guatemala.
 
 
-  Los resultados se presentan en un informe que busca establecer una línea base para una serie de investigaciones sistemáticas que se realizarán. 
+  Los resultados se presentan en un informe que busca establecer una línea base para una serie de investigaciones sistemáticas que se realizarán.
 
 
-  Te invitamos a consultar el documento completo en el siguiente enlace para conocer los hallazgos, conclusiones y recomendaciones.
-  "
+  Te invitamos a consultar el documento completo en el siguiente enlace para conocer los hallazgos, conclusiones y recomendaciones."
   button:
     enable: true
     label: "Descúbrelo aquí"
     link: "https://heyzine.com/flip-book/ae5689e2d7.html"
+    targetBlank: true
 
 
 ############################# Service ############################
@@ -50,15 +52,16 @@ cta:
   enable: true
   bg_image: "images/call-to-action-bg.jpg"
   title: "Forma Parte de Nuestra Comunidad"
-  content: "Sé parte de una red de mujeres que inspiran, construyen y transforman el ecosistema STEAM en Guatemala. Como voluntaria podrás aportar tu talento, conectar con otras líderes y generar impacto real en la comunidad."
+  content: "Se parte de una red de mujeres que inspiran, construyen y transforman el ecosistema STEAM en Guatemala. Como voluntaria podrás aportar tu talento, conectar con otras líderes y generar impacto real en la comunidad."
   button:
     enable: true
     label: "Quiero ser voluntaria"
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeezafuHWy-se_XLfdXf81KKMLmKExs6jpc26uh2Gnk5r4TYQ/viewform?pli=1"
+    targetBlank: true
 
 ############################# Funfacts ###############################
 funfacts:
-  enable: true
+  enable: false
   title: "Fun Facts About Us"
   description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
   funfact_item:
