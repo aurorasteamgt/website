@@ -9,7 +9,7 @@
           {{ with .content }}<p>{{ . | markdownify }}</p>{{ end }}
           {{ with .button }}
           {{ if .enable }}
-          <a class="btn btn-main btn-solid-border" href="{{ .link | relLangURL }}">{{ .label }}</a>
+          <a class="btn btn-main btn-solid-border" href="{{ .link | relLangURL }}" {{ if .targetBlank }}target="_blank"{{ end }}>{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>
