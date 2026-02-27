@@ -1,6 +1,25 @@
 # Changelog
 
-## 1.0.0 (2026-02-26)
+## [1.1.0](https://github.com/aurorasteamgt/website/compare/v1.0.0...v1.1.0) (2026-02-27)
+
+
+### Features
+
+* contenido de página principal (#25) ([2965fd1](https://github.com/aurorasteamgt/website/commit/2965fd1ce379462b17e7a105071dbe077965f057))
+
+
+### Bug Fixes
+
+* agregar word breakpoint para separar correctamente el título (#28) (2794b94)[https://github.com/aurorasteamgt/website/commit/2794b94e31cad05ebc9a9de6a45f5b09123a1c37]
+* cambiar propiedad word-wrap en el titulo para que el sitio escale bien en móvil (#26) ([a05ec0a](https://github.com/aurorasteamgt/website/commit/a05ec0a262798d1c6f6a7d8159b00cabee055e51))
+* ajustar parámetros de release-please (#23) ([8d0a267](https://github.com/aurorasteamgt/website/commit/8d0a267d66afa97bc1525ad886a12187fde576e4))
+
+
+### Miscellaneous
+* actualizar README con instrucciones para actualizar branches (#24) ([cc5dda8](https://github.com/aurorasteamgt/website/commit/cc5dda8f9678c6c7e61187a584aabc9b569cb571))
+
+
+## 1.0.0 (2026-02-25)
 
 
 ### Features
