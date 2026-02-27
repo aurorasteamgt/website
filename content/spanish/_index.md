@@ -4,7 +4,7 @@ banner:
   enable: true
   bg_image: "images/AURORA-Community.png"
   bg_overlay: true
-  title: "Aurora STEAM<br/>Guatemala"
+  title: "Aurora STEAM<br/>Guate<wbr />mala"
   content: "Este 21 de marzo celebremos juntas el poder de las mujeres en STEAM en nuestro evento IWD 2026."
   button:
     enable: true
