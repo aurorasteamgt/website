@@ -5,11 +5,11 @@ banner:
   bg_image: "images/AURORA-Community.png"
   bg_overlay: true
   title: "Aurora STEAM<br/>Guate<wbr />mala"
-  content: "Este 21 de marzo celebremos juntas el poder de las mujeres en STEAM en nuestro evento IWD 2026."
+  content: "El 6 de junio únete a la 2da edición de Anfitrionas: Hablemos de Tecnología, un espacio para inspirar, conectar y transformar juntas el futuro."
   button:
     enable: true
     label: "REGÍSTRATE AHORA"
-    link: https://iwd-2026-aurosteamgt.eventbrite.com/?aff=website
+    link: https://www.eventbrite.com/e/2o-evento-w4tt-anfitrionas-hablemos-de-tecnologia-guatemala-tickets-1990004950376
     targetBlank: true
 
 ############################# About #################################
