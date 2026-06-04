@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/aurorasteamgt/website/compare/v1.1.0...v1.1.1) (2026-06-04)
+
+
+### Miscellaneous
+
+* actualizar portada con datos de evento w4tt anfitrionas ([#31](https://github.com/aurorasteamgt/website/issues/31)) ([21f0731](https://github.com/aurorasteamgt/website/commit/21f0731f5fe85253998ab6029fd5191c351c4b94))
+
 ## [1.1.0](https://github.com/aurorasteamgt/website/compare/v1.0.0...v1.1.0) (2026-02-27)
 
 
