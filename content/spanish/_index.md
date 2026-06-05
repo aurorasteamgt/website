@@ -5,11 +5,11 @@ banner:
   bg_image: "images/AURORA-Community.png"
   bg_overlay: true
   title: "Aurora STEAM<br/>Guate<wbr />mala"
-  content: "El 6 de junio únete a la 2da edición de Anfitrionas: Hablemos de Tecnología, un espacio para inspirar, conectar y transformar juntas el futuro."
+  content: "El 24 de junio aprende cómo Product Management, UX/UI, Project Management y Frontend se conectan para crear productos digitales reales. Evento virtual y gratuito."
   button:
     enable: true
     label: "REGÍSTRATE AHORA"
-    link: https://www.eventbrite.com/e/2o-evento-w4tt-anfitrionas-hablemos-de-tecnologia-guatemala-tickets-1990004950376
+    link: https://www.eventbrite.com/e/de-la-idea-a-la-interfaz-el-ciclo-iterativo-del-producto-tickets-1990710279033?aff=website
     targetBlank: true
 
 ############################# About #################################
