@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/aurorasteamgt/website/compare/v1.1.1...v1.1.2) (2026-06-08)
+
+
+### Miscellaneous
+
+* actualizar portada con datos de evento producto 2026 ([#35](https://github.com/aurorasteamgt/website/issues/35)) ([8a1fcb4](https://github.com/aurorasteamgt/website/commit/8a1fcb4e2c4c67f860bebb3c0f36eaa29d97ca3d))
+
 ## [1.1.1](https://github.com/aurorasteamgt/website/compare/v1.1.0...v1.1.1) (2026-06-04)
 
 
