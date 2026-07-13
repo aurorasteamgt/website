@@ -1,0 +1,41 @@
+x-hugo-base: &hugo-base
+  image: hugo-site:ci
+  pull_policy: build
+  build:
+    context: .
+    dockerfile: Dockerfile
+  volumes:
+    - .:/src
+    - ./.hugo_cache:/cache
+  working_dir: /src
+  entrypoint: sh
+
+services:
+  serve:
+    <<: *hugo-base
+    profiles: ["serve"]
+    command: >
+      -c "
+      { [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; } && npm ci || true;
+      hugo serve --bind 0.0.0.0 --baseURL http://localhost --port 1313 --disableFastRender --buildDrafts --buildFuture
+      "
+    ports:
+      - "1313:1313"
+
+  build-production:
+    <<: *hugo-base
+    profiles: ["build-production"]
+    command: >
+      -c "
+      { [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; } && npm ci || true;
+      hugo --gc --minify --baseURL \"${BASE_URL:?BASE_URL is required}/\" --cacheDir /cache
+      "
+
+  build-development:
+    <<: *hugo-base
+    profiles: ["build-development"]
+    command: >
+      -c "
+      { [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; } && npm ci || true;
+      hugo --gc --minify --baseURL \"${BASE_URL:?BASE_URL is required}/\" --buildDrafts --cacheDir /cache
+      "

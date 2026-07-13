@@ -15,6 +15,16 @@ Clona el código fuente ejecutando `git clone https://github.com/aurorasteamgt/w
 2. Ejecuta `hugo serve`
 3. Voilá 🎉 Puedes acceder a la página en http://localhost:1313/
 
+## Usando Docker
+
+Si tienes `docker` instalado en tu máquina, puedes usar `docker compose` para correr el servidor de pruebas locales sin necesidad
+de instalar hugo directamente.
+
+1. Abre una terminal y dirígete al directorio `website` donde está la copia de este proyecto.
+2. Ejecuta `docker compose --profile serve up`. Tardará un poco la primera vez porque descargará la imagen de `hugo`.
+3. Voilá 🎉 Puedes acceder a la página en http://localhost:1313/
+4. Para detener el servidor de pruebas, termina el proceso con `Ctrl+C`.
+
 ## ¿Cómo contribuir?
 
 1. Crea una branch para tu cambio, partiendo de `develop`. Recomendación: incorporar en el nombre `feat`, `fix` o `chore`.
