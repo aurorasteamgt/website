@@ -1,7 +1,29 @@
 ---
+############################### Hero Section ##############################
+hero:
+  enable: true
+  bg_image: "images/AURORA-Community.png"
+  bg_overlay: true
+  title: "Ruta Aurora: Edición Esquipulas"
+  content: "No te pierdas nuestro primer encuentro regional, enfocado en Backend, Datos, Infraestructura y Cloud.
+
+
+  **Fecha y hora:** sábado 29 de agosto, de 9:00am a 1:00pm.
+
+
+  **Lugar:** FARO - Centro Cultural y de Aprendizaje Cooperativo, Esquipulas, Chiquimula. [Ver en Google Maps](https://maps.app.goo.gl/16bJGdrM7q5v1sD98).
+  "
+  image: "images/hero-esquipulas-01.png"
+  imageAlt: "Basílica de Esquipulas"
+  button:
+    enable: true
+    label: "REGÍSTRATE AHORA"
+    link: https://www.eventbrite.com/e/ruta-aurora-steam-edicion-esquipulas-tickets-1993853262782?aff=website
+    targetBlank: true
+
 ############################### Banner ##############################
 banner:
-  enable: true
+  enable: false
   bg_image: "images/AURORA-Community.png"
   bg_overlay: true
   title: "Aurora STEAM<br/>Guate<wbr />mala"
@@ -18,8 +40,8 @@ about:
   title: "¿Quiénes somos?"
   description: "Aurora STEAM GT es una comunidad que impulsa y visibiliza el talento de las mujeres guatemaltecas, creando espacios seguros de aprendizaje, inspiración y conexión para fortalecer su crecimiento y liderazgo en Ciencia, Tecnología, Ingeniería, Artes y Matemáticas. Nuestra misión es empoderar a más mujeres a desarrollarse en STEAM, reconocer sus trayectorias e inspirar a nuevas generaciones, contribuyendo así a reducir la brecha de género en Guatemala."
   content: "Aspiramos a ser una comunidad segura y colaborativa donde las mujeres se apoyen para alcanzar sus metas mientras construyen vínculos significativos. Gracias al esfuerzo colectivo, hoy contamos con más de 20 líderes, 50 voluntarias y un alcance de más de 1,800 personas, reflejando el impacto y crecimiento continuo de nuestra comunidad en Guatemala."
-  image: "images/Aurora-Steam-Logos_Edit-08.jpg"
-  imageAlt: "Aurora STEAM Guatemala"
+  image: "images/AURORA-Community.png"
+  imageAlt: "Fotografía evento Aurora STEAM"
 
 
 ######################### Portfolio ###############################
@@ -52,7 +74,7 @@ cta:
   enable: true
   bg_image: "images/call-to-action-bg.jpg"
   title: "Forma Parte de Nuestra Comunidad"
-  content: "Se parte de una red de mujeres que inspiran, construyen y transforman el ecosistema STEAM en Guatemala. Como voluntaria podrás aportar tu talento, conectar con otras líderes y generar impacto real en la comunidad."
+  content: "Sé parte de una red de mujeres que inspiran, construyen y transforman el ecosistema STEAM en Guatemala. Como voluntaria podrás aportar tu talento, conectar con otras líderes y generar impacto real en la comunidad."
   button:
     enable: true
     label: "Quiero ser voluntaria"

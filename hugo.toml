@@ -14,11 +14,14 @@ text_light = "#F5ED4F"
 border_color = "#ACB9C4"
 black = "#000000"
 white = "#fff"
-navigation = "#8C1A79"
 light = "#f1f1f1"
+navigation_bg = "#8C1A79"
+navigation_bg_secondary = "#F5ED4F"
+navigation_text_primary = "#F5ED4F"
+navigation_text_secondary = "#FFFFFF"
 
 # font variables
-# base font size for full website, 
+# base font size for full website,
 font_size = "15px" # default is 16px
 
 # Font Scale Sizes

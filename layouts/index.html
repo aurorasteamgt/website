@@ -1,5 +1,32 @@
 {{ define "main" }}
 
+<!-- Hero Section -->
+{{ with .Params.hero }}
+{{ if .enable }}
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        {{ with .title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+        {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+        {{ with .button }}
+        {{ if .enable }}
+        <a href="{{ .link | relLangURL }}" class="btn btn-main animated fadeInUp" {{ if .targetBlank }}target="_blank"{{ end }}>{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-md-6">
+        <div class="block">
+          <img src="{{ .image | relURL }}" class="img-responsive hero-img" alt="{{ .imageAlt }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ end }}
+<!-- /hero -->
+
 <!-- banner -->
 {{ with .Params.banner }}
 {{ if .enable }}
@@ -30,7 +57,7 @@
 <section class="about section">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <div class="col-md-12">
         <div class="block">
           <div class="section-title">
             {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
@@ -39,7 +66,9 @@
           {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
         </div>
       </div>
-      <div class="col-md-5 col-sm-12">
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
         <div class="block">
           <img src="{{ .image | relURL }}" class="img-responsive" alt="{{ .imageAlt }}">
         </div>
