@@ -3,7 +3,8 @@
   "packages": {
     ".": {
       "release-type": "simple",
-      "package-name": "aurora-website"
+      "package-name": "aurorasteamgt-website",
+      "include-component-in-tag": false
     }
   },
   "pull-request-title-pattern": "ci: [bot] release ${version}",
