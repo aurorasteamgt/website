@@ -14,4 +14,4 @@ jobs:
         id: release
         with:
           target-branch: main
-          token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
