@@ -18,3 +18,57 @@
     background-color: darken( $light, 1.5);
   }
 }
+
+.jumbotron {
+  background-color: $navigation-bg;
+  margin-bottom: 0;
+
+  h1, h2, h3, h4 {
+    color: $navigation-text-primary;
+    font-style: italic;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: $h1;
+  }
+
+  p {
+    color: $navigation-text-secondary;
+    font-size: $font-size;
+    font-weight: 400;
+  }
+  a {
+    color: $navigation-text-primary;
+    cursor: pointer;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a.btn-main {
+    background-color: $navigation-bg-secondary;
+    color: $navigation-bg;
+    border-radius: 10px;
+  }
+
+  img.hero-img {
+    max-height: 385px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.about {
+  .img-responsive {
+    height: 100%;
+  }
+}
+
+.call-to-action {
+  h2 {
+    text-transform: uppercase;
+  }
+}
