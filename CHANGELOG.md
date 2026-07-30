@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.2.0](https://github.com/aurorasteamgt/website/compare/v1.1.2...v1.2.0) (2026-07-30)
+
+
+### Features
+
+* sección hero para eventos ([5571ced](https://github.com/aurorasteamgt/website/commit/5571ced15310de98e65ec92482d7c4678f508cdb))
+
+
+### Bug Fixes
+
+* parámetros de conf release-please ([23dc7a2](https://github.com/aurorasteamgt/website/commit/23dc7a236b8c75fa19d75a68444f05c5c3e0427b))
+
+
+### Miscellaneous
+
+* build/serve basados en Docker y Docker compose ([22775e6](https://github.com/aurorasteamgt/website/commit/22775e675848df64a5d66d8bfb08430eab0c4542))
+* check-pr usando Docker y Docker Compose ([400d146](https://github.com/aurorasteamgt/website/commit/400d14635195ebe615ee22bb5936bbbc08b89c55))
+* omitir tags y releases en acción de release-please ([3756619](https://github.com/aurorasteamgt/website/commit/37566197c45f0406bdf7089f162c7a8e1572f2d2))
+* update release-please ([c8f2637](https://github.com/aurorasteamgt/website/commit/c8f2637486b7ab53395b7a93f151f013d242f173))
+* usar token generado por gh para release-please ([3092d39](https://github.com/aurorasteamgt/website/commit/3092d39d75d3a31ecadca878402e7976a7fe9b75))
+
 ## [1.1.2](https://github.com/aurorasteamgt/website/compare/v1.1.1...v1.1.2) (2026-06-05)
 
 
